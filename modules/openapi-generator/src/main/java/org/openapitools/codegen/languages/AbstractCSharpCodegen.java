@@ -188,7 +188,7 @@ public abstract class AbstractCSharpCodegen extends DefaultCodegen implements Co
         typeMapping.put("BigDecimal", "decimal?");
         typeMapping.put("DateTime", "DateTime?");
         typeMapping.put("date", "DateTime?");
-        typeMapping.put("file", "System.IO.Stream");
+        typeMapping.put("file", "byte[]");
         typeMapping.put("array", "List");
         typeMapping.put("list", "List");
         typeMapping.put("map", "Dictionary");
